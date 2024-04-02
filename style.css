@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1627133833133-adbd0b0e0e50?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  background-color: blueviolet;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.header-content {
+  font-size: 60px;
+}
+button {
+  margin-left: 250px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+.cards-secction {
+  margin: 600px auto;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.card-1,
+.card-2,
+.card-3 {
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+.card-1,
+.card-2,
+.card3 img:hover {
+  box-shadow: inset 5px 10px 15px solid rgba(0, 0, 0, 0.6);
+}
+body {
+  background-color: blueviolet;
+}
+.nature {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .navbar h1 {
+    font-size: 20px;
+    color: yellow;
+  }
+
+  .header-content h1 {
+    font-size: 20px;
+    color: blueviolet;
+  }
+}
+@media screen (max-width: 800px) {
+  .navigation {
+    padding: 2px 10px;
+  }
+}
